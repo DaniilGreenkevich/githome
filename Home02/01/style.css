@@ -1,0 +1,22 @@
+.red {
+	color: red;
+}
+p {
+	font-size: 18px;
+}
+
+hr {
+	height: 5px;
+	color: #fff;
+}
+
+.address {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 23px;
+}
