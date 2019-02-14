@@ -1,0 +1,11 @@
+i {
+    font-size: 18px;
+    line-height: 1.5;
+    display: inline-block;
+}
+i + i {
+    margin-left: 5px;
+}
+.icons {
+    vertical-align: middle;
+}
