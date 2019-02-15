@@ -1,0 +1,59 @@
+body {
+    background: #c4c4c4;
+}
+
+ul {
+    list-style-type: square; /* Квадратные маркеры */
+    font-size: 22px;
+}
+
+.rect {
+    max-width: 275px;
+    height: 275px;
+    margin: 200px auto;
+    border: 2px solid #fff;
+
+    background: #000;
+
+}
+
+.name {
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.rain {
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: deepskyblue;
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.violet {
+    color: blueviolet;
+}
