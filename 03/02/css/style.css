@@ -2,15 +2,10 @@ body {
     background: #9a0909;
 }
 
-.img {
-    width: 150px;
-    height: 200px;
-}
-
-.footer {
-    color: #fff;
+.header {
     text-align: center;
 }
+
 
 .t1 {
     width: 100%;
@@ -22,18 +17,67 @@ body {
     color: white;
 }
 
-
 .t2 {
+    width: 100%;
     border-collapse: separate;
     border-spacing: 4px;
-    border: 2px solid black;
+    margin-top: -7px;
+
 }
 
+td {
+}
 
 .lor {
     color: white;
 }
 
-.color-t {
+.color-t a {
     color: orangered;
+
+}
+
+.img-size {
+    color: #fff;
+}
+
+.left-side-bar {
+    width: 125px;
+    background: darkred;
+    padding: 5px;
+}
+
+.right-side-bar {
+    width: 125px;
+    background: #c4c4c4;
+
+}
+
+.news {
+    background: gray;
+    text-align: center;
+    margin: 5px;
+}
+
+.prog-text {
+    padding: 7px;
+}
+.f {
+
+    background: darkorange;
+
+
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    padding: auto;
+
+}
+.foo {
+    height: 30px;
+    text-align: center;
+
 }
