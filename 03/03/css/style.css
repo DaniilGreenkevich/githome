@@ -1,0 +1,129 @@
+body {
+
+    width: 1440px;
+    height: 1024px;
+}
+
+A:visited {
+    color: darkred;
+}
+
+.logo {
+    position: absolute;
+    width: 258px;
+    height: 59px;
+    left: 70px;
+    top: 18px;
+}
+
+.main-title {
+
+    position: absolute;
+    width: 601px;
+    height: 31px;
+    left: 290px;
+    top: 32px;
+
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+.good-size {
+    top: 210px;
+}
+
+.good-si {
+    width: 180px;
+    height: 200px;
+}
+
+.goods1 {
+    position: absolute;
+    left: 68px;
+}
+
+.goods2 {
+    position: absolute;
+    left: 420px;
+}
+
+.goods3 {
+    position: absolute;
+    left: 770px;
+
+}
+
+.goods4 {
+    position: absolute;
+    left: 1120px;
+
+}
+
+.des {
+    position: absolute;
+
+
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 36px;
+
+    color: #000000;
+}
+
+.des1{
+    position: absolute;
+    left: 100px;
+    top: 277px;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    margin: -35px;
+    color: #000000;
+}
+
+.logo-code {
+    position: inherit;
+    top: -25px;
+    float: left;
+}
+
+.footer {
+
+
+}
+
+.footer-left {
+    position: relative;
+    width: 1190px;
+    padding: 30px;
+    margin: auto; /* Выравниваем по центру */
+    top: 600px;
+
+}
+
+.footer-text-left1 {
+
+}
+
+
+.footer-text-left2 {
+
+}
+
+.right-text {
+    position: inherit;
+    width: 200px;
+    height: 25px;
+    left: 920px;
+    bottom: 55px;
+}
+
