@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, sans-serif;
+    background: #000;
+
+}
+
+li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.footer {
+    padding-top: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.logo {
+    padding: 40px;
+}
+
+.social {
+    color: #fff;
+    font-size: 20px;
+}
+
+.line {
+    color: #fff;
+
+}
+
+.icons {
+
+}
