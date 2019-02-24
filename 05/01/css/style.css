@@ -1,0 +1,129 @@
+body {
+    font-family: Georgia, sans-serif;
+}
+
+.main {
+    background: #f6f6f6;
+    width: 1440px;
+    height: 1215px;
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+.hr {
+    margin: 0 auto;
+}
+.cont {
+    margin: 0 auto;
+}
+.footer {
+    background: #fff;
+}
+.who {
+    font-size: 27px;
+    padding-top: 70px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #3C3C3C;
+    text-align: center;
+}
+.cent {
+    margin: 0 auto;
+    text-align: center;
+}
+hr {
+    color: #dcdadb;
+    width: 40px;
+    height: 1px;
+}
+.lorem {
+    padding-top: 40px;
+    font-size: 16px;
+    width: 505px;
+    margin: 0 auto;
+    color: #757575;
+}
+.row {
+    padding-top: 55px;
+}
+.imag-div {
+    width: 240px;
+    height: 240px;
+}
+.title {
+    font-size: 18px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+.prof-desc {
+    padding-top: 20px;
+    color: #3C3C3C;
+    padding: 19px;
+}
+.social {
+    width: 269px;
+    height: 268px;
+    background: #18B6DD;
+    overflow: hidden;
+    display: none;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.d {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #5ecce7;
+    opacity: 1;
+    display: inline-block;
+    margin-top: 120px;
+    z-index: 1;
+}
+.icon-social {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    z-index: 2;
+}
+.image:hover img {
+    display: none;
+}
+.image:hover .social {
+    display: block;
+}
+.img-false {
+    display: none;
+}
+.image1:hover .img-true {
+    display: none;
+
+}
+.image1:hover .title {
+    color: #18B6DD;
+}
+.image1:hover .img-false {
+    display: inline;
+}
+.name {
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.position {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+
