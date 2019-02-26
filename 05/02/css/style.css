@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 500px;
+    min-height: 600px;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hr-1 {
+    height: 3px;
+    background: #fff;
+    width: 45px;
+    padding: 0;
+    border: none;
+}
+.text {
+     color: #fff;
+     text-align: center;
+     position: relative;
+     z-index: 5;
+ }
+
+.client {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.header-pad {
+    padding-top: 120px;
+    color: #fff;
+}
+
+.title {
+    font-size: 17px;
+    width: 570px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.layer {
+    background-color: rgba(23, 17, 23, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.partners-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 125px;
+    position: relative;
+    z-index: 6;
+}
+
+.footer {
+    /*background: #c4c4c4;*/
+    padding-top: 120px;
+    min-height: 800px;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+}
+
+.footer-line {
+    background: #dddbdc;
+}
+
+.foo-title {
+    color: #6f6f6f;
+}
+
+.hello-title {
+    font-weight: bold;
+}
+
+.bg-new {
+    width: 195px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.bg {
+    width: 195px;
+    max-height: 50px;
+    text-align: center;
+    margin-bottom: 2px;
+
+
+}
+
+.bg-be {
+    background: #0e9df9;
+}
+
+.bg-tw {
+    background: #51d7fd;
+}
+
+.bg-dr {
+    background: #fa4d9c;
+}
+
+.bg-fb {
+    background: #2a62ac;
+}
+
+.bg-gl {
+    background: #f13031;
+}
+
+.img1 {
+    padding: 10px;
+}
+
+.test {
+    position: relative;
+}
+
+.form-container {
+    width: 600px;
+}
+
+.hr-line {
+    color: #fff;
+    z-index: 7;
+}
+
+hr .hr-line {
+    color: #00e1ff;
+}
+
+.button {
+    background: #ea6852;
+    color: #fefefe;
+    border: none;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.input-text {
+    margin-top: 5px;
+}
+
+.t {
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 35px;
+    padding-bottom: 3px;
+    width: 600px;
+}
+
+.f-down {
+    background: #c9c9cb;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    color: #5e5e60;
+    font-size: 25px;
+}
+
+.hr-new {
+    width: 750px;
+    height: 0.09px;
+}
+

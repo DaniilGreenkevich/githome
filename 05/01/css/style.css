@@ -3,10 +3,14 @@ body {
 }
 
 .main {
-    background: #f6f6f6;
-    width: 1440px;
-    height: 1215px;
+    /*background: #f6f6f6;*/
 }
+.cont1 {
+    background: #F6F6F6;
+    padding-bottom: 50px;
+}
+
+
 ul.hr {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
@@ -20,11 +24,12 @@ ul.hr li {
 .hr {
     margin: 0 auto;
 }
-.cont {
-    margin: 0 auto;
+.cent {
+    text-align: center;
 }
 .footer {
     background: #fff;
+    margin-top: 50px;
 }
 .who {
     font-size: 27px;
@@ -49,6 +54,7 @@ hr {
     width: 505px;
     margin: 0 auto;
     color: #757575;
+    text-align: center;
 }
 .row {
     padding-top: 55px;
@@ -79,6 +85,7 @@ hr {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .d {
     position: relative;
@@ -97,14 +104,24 @@ img {
     display: inline-block;
     z-index: 2;
 }
-.image:hover img {
+
+.image:hover .icon-social {
+     display: block;
+ }
+
+.image:hover .im {
     display: none;
 }
-.image:hover .social {
+.image:hover .social  {
     display: block;
 }
 .img-false {
     display: none;
+    margin: 0 auto;
+}
+
+.image1 {
+    margin: 0 auto;
 }
 .image1:hover .img-true {
     display: none;
@@ -114,7 +131,7 @@ img {
     color: #18B6DD;
 }
 .image1:hover .img-false {
-    display: inline;
+    display: block;
 }
 .name {
     padding-top: 15px;
@@ -124,6 +141,24 @@ img {
 .position {
     padding-top: 5px;
     font-size: 12px;
+}
+
+.f1 {
+    background: #c4c4c4;
+}
+
+.f2 {
+    background: #fff;
+}
+
+.about1 {
+    /*background: #c4c4c4;*/
+
+}
+
+.about2 {
+    position: absolute;
+    background: #00e1ff;
 }
 
 
