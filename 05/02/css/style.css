@@ -114,22 +114,35 @@ body {
 .bg-be {
     background: #0e9df9;
 }
+.bg-be:hover {
+    background: #000000;
+}
 
 .bg-tw {
     background: #51d7fd;
 }
-
+.bg-tw:hover {
+    background: #000000;
+}
 .bg-dr {
     background: #fa4d9c;
 }
-
+.bg-dr:hover {
+    background: #000000;
+}
 .bg-fb {
     background: #2a62ac;
 }
-
+.bg-fb:hover {
+    background: #000000;
+}
 .bg-gl {
     background: #f13031;
 }
+.bg-gl:hover {
+    background: #000000;
+}
+
 
 .img1 {
     padding: 10px;
@@ -160,7 +173,11 @@ hr .hr-line {
     height: 40px;
     text-align: center;
     margin-top: 20px;
+}
 
+.button:hover {
+    background: #bababa;
+    cursor: pointer;
 }
 .input-text {
     margin-top: 5px;
@@ -189,4 +206,10 @@ hr .hr-line {
     width: 750px;
     height: 0.09px;
 }
+
+.img1:hover {
+    background: #bababa;
+}
+
+
 

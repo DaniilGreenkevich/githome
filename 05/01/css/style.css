@@ -119,13 +119,15 @@ img {
     display: none;
     margin: 0 auto;
 }
+.d:hover {
+    background: #00aced;
+}
 
 .image1 {
     margin: 0 auto;
 }
 .image1:hover .img-true {
     display: none;
-
 }
 .image1:hover .title {
     color: #18B6DD;
