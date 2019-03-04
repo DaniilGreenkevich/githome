@@ -11,12 +11,24 @@
 
 html, body{height: 100%;}
 
-hr.vertical
-{
-    width: 0px;
-    height: 100%; /* or height in PX */
-    bor
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
 }
+
+/*hr.vertical*/
+/*{*/
+    /*width: 0px;*/
+    /*height: 100%; !* or height in PX *!*/
+/*}*/
+
+
+
 /*.vline{*/
     /*border-left: 1px solid #000000;*/
 /*}*/
@@ -145,6 +157,17 @@ i + i {
     font-size: 20px;
     letter-spacing: 6px;
     padding: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.contact-me:hover {
+    border-radius: 30px;
+    border: 2px solid rebeccapurple;
 }
 
 .padding-contact {
