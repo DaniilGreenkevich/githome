@@ -134,7 +134,7 @@ body {
 .t {
     margin-top: 5px;
     padding-top: 56px;
-    width: 235px;
+    /* width: 235px; */
     margin: 0 auto;
     text-align: center;
     border: 1px solid #ececec;
