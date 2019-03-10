@@ -1,0 +1,159 @@
+body {
+    font-family: 'Rufina', serif;
+    background: #f7f7f7;
+}
+
+/*.header {*/
+    /*display: flex;*/
+/*}*/
+
+
+.header__logo {
+     text-align: center;
+     margin: 30px 0;
+ }
+
+.header__menu-title {
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+li {
+    list-style-type: none;
+    padding: 0 24px;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.header__link {
+    text-decoration: none;
+    /*list-style-type: none;*/
+    cursor: pointer;
+}
+
+.main__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #474241;
+    padding:9px;
+
+}
+
+.hr {
+    box-shadow: 0 10px 6px -6px #777;
+    width: 100%;
+}
+
+.header__link:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #a19795;
+    transition: width .3s ease-in-out;
+}
+
+.header__link:hover:after{
+    width: 100%;
+
+}
+.header__link:hover {
+    font-weight: bold;
+}
+
+.ul__for__flex {
+    display: flex;
+    /*justify-content: center;*/
+    margin: 0 auto;
+}
+
+.main__menu {
+    display: flex;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+.main__link:hover {
+    background-color: #a19795;
+}
+
+.main__body {
+    margin: 50px 0;
+}
+
+.main__img {
+    width: 239px;
+    height: 235px;
+}
+
+.main__margin {
+    margin-bottom: 40px;
+}
+
+
+
+.skills {
+    background-color: #605a58;
+    height: 325px;
+}
+
+.skills__container {
+    margin: 0 35px;
+    border: #000000;
+    padding-top: 40px;
+}
+
+.skills__logo {
+
+}
+
+.skills__about {
+    display: flex;
+}
+
+.footer {
+    background: #474241;
+    height: 45px;
+}
+
+.footer__link {
+    color: #878381;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.footer__copy {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-left: 145px;
+}
+
+.footer__link:hover {
+    color: #ffffff;
+}
+
+.footer__menu-title {
+    padding-top: 15px;
+
+}
+
+.footer__link:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #a19795;
+    transition: width .3s ease-in-out;
+}
+
+.footer__link:hover:after{
+    width: 100%;
+
+}
