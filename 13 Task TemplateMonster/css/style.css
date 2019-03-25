@@ -90,6 +90,10 @@ p {
    border-bottom: none;
 }
 
+.header__r:hover {
+    cursor: pointer;
+}
+
 .header__center a:hover {
     border-bottom: 1px solid #fff;
     color:#ffffff;
@@ -212,7 +216,7 @@ p {
 }
 
 .services__row__common {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 }
 
 .services__title {
@@ -454,6 +458,10 @@ p {
     font-size: 20px;
     padding-left: 25px;
 
+}
+
+.submit__input:hover {
+    cursor: pointer;
 }
 
 .footer {
