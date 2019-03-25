@@ -427,7 +427,7 @@ p {
 
 .form__email {
     padding-top: 65px;
-    padding-left: 435px;
+    /*padding-left: 435px;*/
 }
 
 .form__wrap {
@@ -441,10 +441,10 @@ p {
     height: 58px;
     border-radius: 30px 0 0 30px;
     border: 0;
-    margin-left: 200px;
     padding-left: 42px;
     font-size: 18px;
     padding-top: 5px;
+    margin-left: 75px;
 }
 
 .submit__input {
@@ -456,7 +456,9 @@ p {
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-    padding-left: 25px;
+    margin-left: -350px;
+
+    /*padding-left: 25px;*/
 
 }
 
