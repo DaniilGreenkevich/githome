@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    /*background-image: url("../img/main__pic.png");*/
-    /*background-position: top;*/
-    /*opacity: 0.3;*/
+    background-image: url("../img/main__pic.png");
+    background-position: top;
+    opacity: 0.3;
 }
 
 li {
@@ -109,7 +109,7 @@ a {
     color: #5A80BE;
     box-shadow: 0 0 25px #9f9494;
     text-align: center;
-    transform: rotate(-10deg);
+    /*transform: rotate(-10deg);*/
     margin-bottom: 82px;
     margin-left: -48px;
     margin-top: 14px;
