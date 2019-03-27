@@ -90,10 +90,6 @@ ul {
     height: 235px;
 }
 
-.main__margin {
-    margin-bottom: 40px;
-}
-
 
 
 .skills {
@@ -156,4 +152,62 @@ ul {
 .footer__link:hover:after{
     width: 100%;
 
+}
+
+
+.main__margin {
+    margin-bottom: 40px;
+    perspective: 1000px;
+}
+.panel {
+    padding-top: 100%;
+    position: relative;
+    z-index: 2;
+    transition: .5s;
+}
+.panel img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.main__margin:hover .panel {
+    transform: rotateY(180deg);
+    filter: grayscale(1);
+}
+
+.pulse {
+    /* animation-name: pulse; */
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.pulse:hover {
+    animation-play-state: paused;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotateZ(0);
+        filter: grayscale(1);
+    }
+    15% {
+        transform: scale(1.1) rotateZ(0);
+    }
+    50% {
+        transform: scale(1.3) rotateZ(180deg);
+        filter: grayscale(0);
+    }
+    85% {
+        transform: scale(1.1) rotateZ(360deg);
+    }
+    100% {
+        transform: scale(1) rotateZ(360deg);
+        filter: grayscale(1);
+    }
 }
